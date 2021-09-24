@@ -1,0 +1,51 @@
+.dialog-wraper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  background-color: #dec;
+  display: flex;
+  flex-direction: column;
+}
+.dialog-wraper.dialog {
+  width: 500px;
+  height: 300px;
+}
+.dialog-wraper.alert {
+  width: 500px;
+  height: 200px;
+  top: -50% !important;
+}
+
+.dialog-header {
+  height: 45px;
+  line-height: 45px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.dialog-header .dialog-close {
+  cursor: pointer;
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dialog-content {
+  flex: 1;
+}
+.dialog-footer {
+  height: 45px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 45px;
+  text-align: right;
+  border-top: 1px solid #ccc;
+}
